@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPGGameSecondVersion.Classes.Abstract.Hero" Collapsed="true">
+    <Position X="18.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQARACAAAyAgAAAAAQIBAAAAAADAAAAIwAAQSE=</HashCode>
+      <FileName>Classes\Abstract\Hero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Abstract.Item" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAQgAAAAAAAAIAAQQAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Classes\Abstract\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Abstract.Monster" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAgAAAQIEAAEgAAAAQAAAEAAAAAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Classes\Abstract\Monster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Abstract.Speciality" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIQAAAAAAEAAEgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Abstract\Speciality.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.HeroKnight" Collapsed="true">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAACAAAABAAAAAAAAAAIAAAIAAAAAAAAAg=</HashCode>
+      <FileName>Classes\Heroes\HeroKnight.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.HeroMage" Collapsed="true">
+    <Position X="19.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAACAAAABAAAAAAAAAAIAAAIAAAAAAAAAg=</HashCode>
+      <FileName>Classes\Heroes\HeroMage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.FifthLevelMonster" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACBAACAAAAAAAAAAAAAIAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\Monsters\FifthLevelMonster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.FirstLevelMonster" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACBAACAAAAAAAAAAAAAIAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\Monsters\FirstLevelMonster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.FourthLevelMonster" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACBAACAAAAAAAAAAAAAIAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\Monsters\FourthLevelMonster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.SecondLevelMonster" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACBAACAAAAAAAAAAAAAIAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\Monsters\SecondLevelMonsters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.ThirdLevelMonster" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACBAACAAAAAAAAAAAAAIAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\Monsters\ThirdLevelMonster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Items.Armors.FirstLevelArmor" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAIAAAAIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Armors\FirstLevelArmor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Items.Armors.SecondLevelArmor" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAIAAAAIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Armors\SecondLevelArmor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Items.Armors.ThirdLevelArmor" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAIAAAAIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Armors\ThirdLevelArmor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Items.Armors.HealthPotion" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAIAAAAIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Potions\HealthPotion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Items.Armors.FirstLevelWeapon" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAIAAAAIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Weapons\FirstLevelWeapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Items.Armors.SecondLevelWeapon" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAIAAAAIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Weapons\SecondLevelWeapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Items.Armors.ThirdLevelWeapon" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgAAAAAAIAAAAIAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Weapons\ThirdLevelWeapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Specialities.MageSpecialities.BoltStrike" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAA=</HashCode>
+      <FileName>Classes\Specialities\MageSpecialities\BoltStrike.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Specialities.MageSpecialities.DarkRitual" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAA=</HashCode>
+      <FileName>Classes\Specialities\MageSpecialities\DarkRitual.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Classes.Specialities.MageSpecialities.ThunderAttack" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAA=</HashCode>
+      <FileName>Classes\Specialities\MageSpecialities\ThunderAttack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGameSecondVersion.Control.Validator" Collapsed="true">
+    <Position X="29.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAQAAAABCSQAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.CharecterSelector" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAQEAGAAEBABBQCABAQCAIACCASAQAgQUQEgEAA=</HashCode>
+      <FileName>UI\CharecterSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.HeroAttack" Collapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAQAAAACAIQACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\HeroAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.LevelAbstract" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AyBEIBKAVTCFuDEDgnDEASIqRMACVIDiBoAAAAApSEQ=</HashCode>
+      <FileName>UI\LevelAbstract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.LevelSelector" Collapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACggAIBACBAQAAQAACAFAACCAAAAgAQAAAAAAAAAAA=</HashCode>
+      <FileName>UI\LevelSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.MainMenu" Collapsed="true">
+    <Position X="31" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gASAAAAAADAAAAACAACAABAKAAAAACABEAAAAAIABAA=</HashCode>
+      <FileName>UI\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.MonsterAttack" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAACAAAAAEAACAAQACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\MonsterAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.Shop" Collapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AlAAIgAByGIDggCEEAGEAIpCADDCAEABAIgBhABCBJQ=</HashCode>
+      <FileName>UI\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.UI.Credits" Collapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAAACAQAACAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>UI\Credits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.UI.Lose" Collapsed="true">
+    <Position X="29.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAABAACAAAACAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Lose.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGameSecondVersion.UI.Victory" Collapsed="true">
+    <Position X="31" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAAAAACAAAACAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Victory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RPGGameSecondVersion.Interfaces.IHero" Collapsed="true">
+    <Position X="25.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAQACAAAyAAAAAAAQIBAAAAAABAAAAIwAAQQE=</HashCode>
+      <FileName>Interfaces\IHero.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RPGGameSecondVersion.Interfaces.IItem" Collapsed="true">
+    <Position X="27.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAQgAAAAAAAAIAAQQAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RPGGameSecondVersion.Interfaces.IMonster" Collapsed="true">
+    <Position X="29.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAAAQIEAAAgAAAAQAAAEAAAAAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IMonster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RPGGameSecondVersion.Interfaces.ISpeciality" Collapsed="true">
+    <Position X="31" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIQAAAAAAAAAEgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISpeciality.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="RPGGameSecondVersion.Enums.Gender" Collapsed="true">
+    <Position X="25.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABA=</HashCode>
+      <FileName>Enums\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPGGameSecondVersion.Enums.ItemType" Collapsed="true">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

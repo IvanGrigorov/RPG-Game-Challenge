@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0A0E7E7-D068-4566-8921-560A06373B66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RPGGameSecondVersion</RootNamespace>
+    <AssemblyName>RPGGameSecondVersion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UI\CharecterSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CharecterSelector.Designer.cs">
+      <DependentUpon>CharecterSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Abstract\Hero.cs" />
+    <Compile Include="Classes\Abstract\Item.cs" />
+    <Compile Include="Classes\Abstract\Monster.cs" />
+    <Compile Include="Classes\Abstract\Speciality.cs" />
+    <Compile Include="UI\Credits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Credits.Designer.cs">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HeroAttack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HeroAttack.Designer.cs">
+      <DependentUpon>HeroAttack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Items\Armors\FirstLevelArmor.cs" />
+    <Compile Include="Classes\Items\Armors\SecondLevelArmor.cs" />
+    <Compile Include="Classes\Items\Armors\ThirdLevelArmor.cs" />
+    <Compile Include="Classes\Items\Potions\HealthPotion.cs" />
+    <Compile Include="Classes\Items\Weapons\FirstLevelWeapon.cs" />
+    <Compile Include="Classes\Items\Weapons\SecondLevelWeapon.cs" />
+    <Compile Include="Classes\Items\Weapons\ThirdLevelWeapon.cs" />
+    <Compile Include="Classes\Monsters\FifthLevelMonster.cs" />
+    <Compile Include="Classes\Monsters\FirstLevelMonster.cs" />
+    <Compile Include="Classes\Heroes\HeroKnight.cs" />
+    <Compile Include="Classes\Heroes\HeroMage.cs" />
+    <Compile Include="Classes\Monsters\FourthLevelMonster.cs" />
+    <Compile Include="Classes\Monsters\SecondLevelMonsters.cs" />
+    <Compile Include="Classes\Monsters\ThirdLevelMonster.cs" />
+    <Compile Include="Classes\Specialities\MageSpecialities\BoltStrike.cs" />
+    <Compile Include="Classes\Specialities\MageSpecialities\DarkRitual.cs" />
+    <Compile Include="Classes\Specialities\MageSpecialities\ThunderAttack.cs" />
+    <Compile Include="Enums\Gender.cs" />
+    <Compile Include="Enums\ItemType.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\ISpeciality.cs" />
+    <Compile Include="UI\LevelAbstract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LevelAbstract.Designer.cs">
+      <DependentUpon>LevelAbstract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LevelSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LevelSelector.Designer.cs">
+      <DependentUpon>LevelSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Lose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Lose.Designer.cs">
+      <DependentUpon>Lose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IHero.cs" />
+    <Compile Include="Interfaces\IMonster.cs" />
+    <Compile Include="UI\MonsterAttack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MonsterAttack.Designer.cs">
+      <DependentUpon>MonsterAttack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPGStarter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Validator.cs" />
+    <Compile Include="UI\Victory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Victory.Designer.cs">
+      <DependentUpon>Victory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\CharecterSelector.resx">
+      <DependentUpon>CharecterSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Credits.resx">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HeroAttack.resx">
+      <DependentUpon>HeroAttack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LevelAbstract.resx">
+      <DependentUpon>LevelAbstract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LevelSelector.resx">
+      <DependentUpon>LevelSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Lose.resx">
+      <DependentUpon>Lose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MonsterAttack.resx">
+      <DependentUpon>MonsterAttack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Victory.resx">
+      <DependentUpon>Victory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\Specialities\KnightSpecialities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\silver_knight_by_rizarizis-d6ww9zt.png" />
+    <Content Include="Resources\space_mage_by_axl99-d6ru3ej.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
